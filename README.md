@@ -1,5 +1,5 @@
 # Spring_JPA
-
+Day : demo model avec primary key vs 
 # exercice 1
 
 En utilisant JPA, créer une entité produit avec les caractéristiques suivantes:
