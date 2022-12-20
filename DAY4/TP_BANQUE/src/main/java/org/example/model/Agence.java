@@ -11,7 +11,7 @@ public class Agence {
 
     private String adresse;
 
-    @OneToMany(mappedBy = "agence") //l'agence est "l'esclave de la relation compte-client, alors on met ici le mappedBy
+    @OneToMany(mappedBy = "agence") //l'agence est "l'esclave de la relation compte-client car l'Agence est en One, alors on met ici le mappedBy
     private List<Compte> comptes;
 
     public Long getId() {
